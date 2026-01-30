@@ -11,14 +11,11 @@ const events = [
     mapsLink: 'https://maps.google.com/?q=Annapurna+De+Royale+Lakshmipuram+Guntur',
     shortDesc: 'The bride\'s pre-wedding ceremony',
     image: '👰',
-    dressCode: 'Traditional attire - Sarees for women, Kurtas for men. Colors: Yellows, greens, and pastels preferred.',
     rituals: [
-      { name: 'Pasupu Danchadam', desc: 'Turmeric grinding ceremony symbolizing purity and prosperity' },
-      { name: 'Nalugu', desc: 'Application of turmeric paste on the bride by married women' },
-      { name: 'Mangala Snanam Preparation', desc: 'Sacred items arranged for the holy bath' }
+      { name: 'Mangala Snanam (మంగళ స్నానం)', desc: 'Sacred holy bath for the bride, symbolizing purification of mind, body, and soul before marriage' },
+      { name: 'Akshintalu (అక్షింతలు)', desc: 'Blessing the bride with turmeric-coated rice grains by elders for a prosperous married life' }
     ],
-    significance: 'This beautiful ceremony marks Dhruthi\'s transition from maidenhood. The turmeric signifies purity, and the rituals invoke blessings from Goddess Gauri for a prosperous married life.',
-    highlights: ['Traditional music and songs', 'Festive lunch', 'Henna for guests']
+    significance: 'This beautiful ceremony marks Dhruthi\'s transition from maidenhood. The turmeric signifies purity, and the rituals invoke blessings from Goddess Gauri for a prosperous married life.'
   },
   {
     id: 'sangeet',
@@ -30,15 +27,12 @@ const events = [
     mapsLink: 'https://maps.google.com/?q=Vijayam+Amaravati+Road+Guntur',
     shortDesc: 'An evening of music, dance & celebration',
     image: '💃',
-    dressCode: 'Festive Indo-Western or traditional attire. Bright colors encouraged - pinks, oranges, teals, and purples. Comfortable shoes for dancing!',
     rituals: [
       { name: 'Welcome Dance', desc: 'The bride and groom\'s families welcome guests with a group performance' },
       { name: 'Couple\'s Performance', desc: 'A special dance by Siddhartha and Dhruthi together' },
-      { name: 'Family Performances', desc: 'Fun choreographed dances by relatives and friends' },
-      { name: 'Antakshari', desc: 'Traditional musical game between families' }
+      { name: 'Family Performances', desc: 'Fun choreographed dances by relatives and friends' }
     ],
-    significance: 'The Sangeet is a joyous pre-wedding celebration filled with music, dance, and merriment. It brings both families together through performances, fostering bonds before the wedding day.',
-    highlights: ['Choreographed dance performances', 'Live music and DJ', 'Games and prizes', 'Dinner to follow']
+    significance: 'The Sangeet is a joyous pre-wedding celebration filled with music, dance, and merriment. It brings both families together through performances, fostering bonds before the wedding day.'
   },
   {
     id: 'snathakam',
@@ -50,15 +44,13 @@ const events = [
     mapsLink: 'https://maps.google.com/?q=Annapurna+De+Royale+Lakshmipuram+Guntur',
     shortDesc: 'Sacred groom ceremonies & Panakala Kavidi',
     image: '🪷',
-    dressCode: 'Traditional attire. The groom will wear special ceremonial clothes.',
     rituals: [
       { name: 'Snathakam', desc: 'The groom\'s graduation ceremony marking his readiness for married life' },
       { name: 'Pradhanam', desc: 'Sacred rituals performed by the groom before the wedding' },
       { name: 'Panakala Kavidi', desc: 'Traditional ceremony where the groom carries sacred pots' },
       { name: 'Kashi Yatra', desc: 'Symbolic journey where the groom pretends to leave for Kashi, stopped by bride\'s family' }
     ],
-    significance: 'These ceremonies mark Siddhartha\'s transition to a householder. The Snathakam symbolizes completion of brahmacharya (student life), while Pradhanam prepares him spiritually for marriage.',
-    highlights: ['Traditional Vedic mantras', 'Family blessings', 'Festive lunch to follow']
+    significance: 'These ceremonies mark Siddhartha\'s transition to a householder. The Snathakam symbolizes completion of brahmacharya (student life), while Pradhanam prepares him spiritually for marriage.'
   },
   {
     id: 'reception',
@@ -70,14 +62,8 @@ const events = [
     mapsLink: 'https://maps.google.com/?q=CK+Convention+Mangalagiri',
     shortDesc: 'Evening celebration with family & friends',
     image: '🎉',
-    dressCode: 'Semi-formal to formal attire. Sarees, lehengas, or gowns for women. Suits, sherwanis, or formal kurtas for men.',
-    rituals: [
-      { name: 'Couple\'s Grand Entry', desc: 'Siddhartha and Dhruthi make their grand entrance' },
-      { name: 'Cake Cutting', desc: 'Celebration with the wedding cake' },
-      { name: 'Ring Ceremony', desc: 'Exchange of rings witnessed by guests' }
-    ],
-    significance: 'The reception is a joyous celebration where Siddhartha and Dhruthi are introduced as a married couple to the extended family, friends, and community.',
-    highlights: ['Live music and DJ', 'Photo booth', 'Grand dinner buffet', 'Dance performances']
+    rituals: [],
+    significance: 'The reception is a joyous celebration where Siddhartha and Dhruthi are introduced as a married couple to the extended family, friends, and community.'
   },
   {
     id: 'muhurtham',
@@ -89,7 +75,6 @@ const events = [
     mapsLink: 'https://maps.google.com/?q=CK+Convention+Mangalagiri',
     shortDesc: 'The sacred wedding ceremony',
     image: '💑',
-    dressCode: 'Grand traditional attire - Kanjeevaram/Pattu sarees for women, Traditional dhoti or silk kurta for men. Colors: Rich silks in red, gold, maroon.',
     rituals: [
       { name: 'Kanyadaanam', desc: 'Dhruthi\'s parents give her hand to Siddhartha' },
       { name: 'Jeelakarra Bellam', desc: 'Couple places cumin and jaggery on each other\'s heads' },
@@ -97,8 +82,7 @@ const events = [
       { name: 'Talambralu', desc: 'Showering of sacred rice on each other' },
       { name: 'Saptapadi', desc: 'Seven steps around the sacred fire' }
     ],
-    significance: 'The Muhurtham at 11:29 PM is the most auspicious moment when Siddhartha and Dhruthi unite as one. The timing is calculated by priests based on their horoscopes for maximum celestial blessings.',
-    highlights: ['Traditional Nadaswaram music', 'Vedic priest ceremonies', 'Grand floral decorations', 'Auspicious late-night timing']
+    significance: 'The Muhurtham at 11:29 PM is the most auspicious moment when Siddhartha and Dhruthi unite as one.'
   }
 ];
 
@@ -120,9 +104,9 @@ export default function App() {
         {/* Mandala Decoration */}
         <div className="text-6xl mb-4 animate-pulse">🪷</div>
 
-        {/* Telugu Blessing */}
-        <p className="text-lg mb-2" style={{ color: '#8B4513', fontFamily: 'serif' }}>
-          శుభం భవతు 🙏 మంగళం భవతు
+        {/* Venkateshwara Namalu */}
+        <p className="text-lg mb-2" style={{ color: '#800020', fontFamily: 'serif', fontWeight: '600' }}>
+          ॐ నమో వేంకటేశాయ
         </p>
 
         {/* Main Title */}
@@ -162,12 +146,9 @@ export default function App() {
 
       {/* Events Section */}
       <section className="px-4 pb-16 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-2" style={{ color: '#8B4513', fontFamily: 'Georgia, serif' }}>
+        <h2 className="text-3xl font-bold text-center mb-10" style={{ color: '#8B4513', fontFamily: 'Georgia, serif' }}>
           Wedding Celebrations
         </h2>
-        <p className="text-center mb-10" style={{ color: '#A0522D' }}>
-          వివాహ వేడుకలు • Click on each event for details
-        </p>
 
         {/* Event Cards Grid */}
         <div className="grid md:grid-cols-2 gap-6">
@@ -293,48 +274,22 @@ export default function App() {
               </div>
 
               {/* Rituals */}
-              <div>
-                <h4 className="text-lg font-bold mb-3 flex items-center gap-2" style={{ color: '#8B4513' }}>
-                  <span>🪔</span> Rituals & Ceremonies
-                </h4>
-                <div className="space-y-3">
-                  {selectedEvent.rituals.map((ritual, idx) => (
-                    <div key={idx} className="p-4 rounded-xl bg-white" style={{ border: '1px solid #E8D4B8' }}>
-                      <p className="font-semibold" style={{ color: '#800020' }}>{ritual.name}</p>
-                      <p className="text-gray-600 text-sm mt-1">{ritual.desc}</p>
-                    </div>
-                  ))}
+              {selectedEvent.rituals.length > 0 && (
+                <div>
+                  <h4 className="text-lg font-bold mb-3 flex items-center gap-2" style={{ color: '#8B4513' }}>
+                    <span>🪔</span> Rituals & Ceremonies
+                  </h4>
+                  <div className="space-y-3">
+                    {selectedEvent.rituals.map((ritual, idx) => (
+                      <div key={idx} className="p-4 rounded-xl bg-white" style={{ border: '1px solid #E8D4B8' }}>
+                        <p className="font-semibold" style={{ color: '#800020' }}>{ritual.name}</p>
+                        <p className="text-gray-600 text-sm mt-1">{ritual.desc}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
-              {/* Dress Code */}
-              <div className="p-5 rounded-xl" style={{ background: 'linear-gradient(135deg, #800020, #A52A2A)' }}>
-                <h4 className="text-lg font-bold mb-2 flex items-center gap-2 text-yellow-200">
-                  <span>👗</span> Dress Code
-                </h4>
-                <p className="text-white leading-relaxed">{selectedEvent.dressCode}</p>
-              </div>
-
-              {/* Highlights */}
-              <div>
-                <h4 className="text-lg font-bold mb-3 flex items-center gap-2" style={{ color: '#8B4513' }}>
-                  <span>🌟</span> Event Highlights
-                </h4>
-                <div className="flex flex-wrap gap-2">
-                  {selectedEvent.highlights.map((highlight, idx) => (
-                    <span
-                      key={idx}
-                      className="px-4 py-2 rounded-full text-sm font-medium"
-                      style={{
-                        background: 'linear-gradient(135deg, #D4AF37, #DAA520)',
-                        color: '#3E2723'
-                      }}
-                    >
-                      {highlight}
-                    </span>
-                  ))}
-                </div>
-              </div>
             </div>
 
             {/* Modal Footer */}
