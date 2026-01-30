@@ -101,8 +101,8 @@ export default function App() {
         {/* Decorative Top Border */}
         <div className="absolute top-0 left-0 right-0 h-2" style={{ background: 'linear-gradient(90deg, #8B4513, #D4AF37, #8B4513)' }} />
 
-        {/* Mandala Decoration */}
-        <div className="text-6xl mb-4 animate-pulse">🪷</div>
+        {/* Lord Balaji Namam */}
+        <img src="/balaji-namam.svg" alt="Lord Balaji Namam" className="w-20 h-24 mx-auto mb-4" />
 
         {/* Venkateshwara Namalu */}
         <p className="text-lg mb-2" style={{ color: '#800020', fontFamily: 'serif', fontWeight: '600' }}>
