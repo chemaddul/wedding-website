@@ -109,6 +109,14 @@ export default function App() {
           ॐ నమో వేంకటేశాయ
         </p>
 
+        {/* Host Names */}
+        <p className="text-lg font-semibold mb-1" style={{ color: '#8B4513' }}>
+          Dr. Maddula Gopala Nagakishore & Dr. Maddula Sunitha
+        </p>
+        <p className="text-xl mb-4" style={{ color: '#8B4513' }}>
+          cordially invite you to the wedding of
+        </p>
+
         {/* Main Title */}
         <h1 className="text-5xl md:text-6xl font-bold mb-3" style={{
           color: '#8B4513',
@@ -119,13 +127,8 @@ export default function App() {
         </h1>
 
         {/* Telugu Names */}
-        <p className="text-2xl mb-4" style={{ color: '#B8860B', fontFamily: 'serif' }}>
+        <p className="text-2xl" style={{ color: '#B8860B', fontFamily: 'serif' }}>
           సిద్ధార్థ 💕 ధృతి
-        </p>
-
-        {/* Tagline */}
-        <p className="text-xl" style={{ color: '#8B4513' }}>
-          We joyfully invite you to celebrate our wedding
         </p>
 
         {/* Date Banner */}
