@@ -29,7 +29,7 @@ const events = [
     image: '💃',
     rituals: [
       { name: 'Welcome Dance', desc: 'The bride and groom\'s families welcome guests with a group performance' },
-      { name: 'Couple\'s Performance', desc: 'A special dance by Siddhartha and Dhruthi together' },
+      { name: 'Couple\'s Performance', desc: 'A special dance by Dhruthi and Siddhartha together' },
       { name: 'Family Performances', desc: 'Fun choreographed dances by relatives and friends' }
     ],
     significance: 'The Sangeet is a joyous pre-wedding celebration filled with music, dance, and merriment. It brings both families together through performances, fostering bonds before the wedding day.'
@@ -63,7 +63,7 @@ const events = [
     shortDesc: 'Evening celebration with family & friends',
     image: '🎉',
     rituals: [],
-    significance: 'The reception is a joyous celebration where Siddhartha and Dhruthi are introduced as a married couple to the extended family, friends, and community.'
+    significance: 'The reception is a joyous celebration where Dhruthi and Siddhartha are introduced as a married couple to the extended family, friends, and community.'
   },
   {
     id: 'muhurtham',
@@ -82,7 +82,7 @@ const events = [
       { name: 'Talambralu', desc: 'Showering of sacred rice on each other' },
       { name: 'Saptapadi', desc: 'Seven steps around the sacred fire' }
     ],
-    significance: 'The Muhurtham at 11:29 PM is the most auspicious moment when Siddhartha and Dhruthi unite as one.'
+    significance: 'The Muhurtham at 11:29 PM is the most auspicious moment when Dhruthi and Siddhartha unite as one.'
   }
 ];
 
@@ -123,12 +123,12 @@ export default function App() {
           fontFamily: 'Georgia, serif',
           textShadow: '2px 2px 4px rgba(139, 69, 19, 0.2)'
         }}>
-          Siddhartha & Dhruthi
+          Dhruthi & Siddhartha
         </h1>
 
         {/* Telugu Names */}
         <p className="text-2xl" style={{ color: '#B8860B', fontFamily: 'serif' }}>
-          సిద్ధార్థ 💕 ధృతి
+          ధృతి 💕 సిద్ధార్థ
         </p>
 
         {/* Date Banner */}
