@@ -131,6 +131,19 @@ export default function App() {
           ధృతి 💕 సిద్ధార్థ
         </p>
 
+        {/* Couple Photo */}
+        <div className="mt-6 flex justify-center">
+          <img
+            src="/couple-photo.jpg"
+            alt="Dhruthi and Siddhartha"
+            className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full"
+            style={{
+              border: '4px solid #D4AF37',
+              boxShadow: '0 8px 30px rgba(139, 69, 19, 0.25)'
+            }}
+          />
+        </div>
+
         {/* Date Banner */}
         <div className="mt-6 inline-block px-8 py-3 rounded-full" style={{
           background: 'linear-gradient(135deg, #8B4513, #A0522D)',
