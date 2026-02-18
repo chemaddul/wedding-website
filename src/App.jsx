@@ -63,6 +63,7 @@ const events = [
     shortDesc: 'Evening celebration with family & friends',
     image: '🎉',
     rituals: [],
+    liveStreamId: 'lqs-MnK_FCk',
     significance: 'The reception is a joyous celebration where Dhruthi and Siddhartha are introduced as a married couple to the extended family, friends, and community.'
   },
   {
@@ -75,6 +76,7 @@ const events = [
     mapsLink: 'https://maps.google.com/?q=CK+Convention+Mangalagiri',
     shortDesc: 'The sacred wedding ceremony',
     image: '💑',
+    liveStreamId: 'lqs-MnK_FCk',
     rituals: [
       { name: 'Kanyadaanam', desc: 'Dhruthi\'s parents give her hand to Siddhartha' },
       { name: 'Jeelakarra Bellam', desc: 'Couple places cumin and jaggery on each other\'s heads' },
@@ -146,6 +148,42 @@ export default function App() {
           <div className="h-px w-24" style={{ background: 'linear-gradient(90deg, #D4AF37, transparent)' }} />
         </div>
       </header>
+
+      {/* Watch Live Section */}
+      <section className="px-4 pb-12 max-w-4xl mx-auto">
+        <div className="text-center mb-6">
+          <h2 className="text-3xl font-bold mb-2" style={{ color: '#8B4513', fontFamily: 'Georgia, serif' }}>
+            Watch Live
+          </h2>
+          <p className="text-lg" style={{ color: '#5D4037' }}>
+            Join the Muhurtham & Reception virtually
+          </p>
+        </div>
+        <div
+          className="rounded-2xl overflow-hidden"
+          style={{
+            border: '3px solid #D4AF37',
+            boxShadow: '0 8px 30px rgba(139, 69, 19, 0.2)',
+          }}
+        >
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+            <iframe
+              src="https://www.youtube.com/embed/lqs-MnK_FCk"
+              title="Wedding Live Stream"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                border: 'none',
+              }}
+            />
+          </div>
+        </div>
+      </section>
 
       {/* Events Section */}
       <section className="px-4 pb-16 max-w-6xl mx-auto">
@@ -267,6 +305,36 @@ export default function App() {
                   <p className="text-xs mt-1" style={{ color: '#666' }}>Open in Maps</p>
                 </a>
               </div>
+
+              {/* Live Stream */}
+              {selectedEvent.liveStreamId && (
+                <div>
+                  <h4 className="text-lg font-bold mb-3 flex items-center gap-2" style={{ color: '#8B4513' }}>
+                    <span>📺</span> Watch Live
+                  </h4>
+                  <div
+                    className="rounded-xl overflow-hidden"
+                    style={{ border: '1px solid #D4AF37' }}
+                  >
+                    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+                      <iframe
+                        src={`https://www.youtube.com/embed/${selectedEvent.liveStreamId}`}
+                        title={`${selectedEvent.name} Live Stream`}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        style={{
+                          position: 'absolute',
+                          top: 0,
+                          left: 0,
+                          width: '100%',
+                          height: '100%',
+                          border: 'none',
+                        }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              )}
 
               {/* Significance */}
               <div className="p-5 rounded-xl" style={{ background: 'linear-gradient(135deg, #FDF5E6, #FAEBD7)', border: '1px solid #DEB887' }}>
